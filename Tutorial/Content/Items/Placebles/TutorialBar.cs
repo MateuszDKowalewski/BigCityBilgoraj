@@ -29,6 +29,9 @@ namespace BigCityBilgoraj.Tutorial.Content.Items.Placebles
             Item.useAnimation = 15;
             Item.useTime = 10;
             Item.autoReuse = true;
+
+            Item.createTile = ModContent.TileType<Tiles.TutorialBars>();
+            Item.placeStyle = 0;
         }
 
         public override void AddRecipes()
