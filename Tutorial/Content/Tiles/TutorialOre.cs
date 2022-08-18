@@ -21,7 +21,7 @@ namespace BigCityBilgoraj.Tutorial.Content.Tiles
             AddMapEntry(new Color(200, 200, 200), CreateMapEntryName("Tutorial Ore"));
 
             DustType = DustID.Tungsten;
-            ItemDrop = ModContent.ItemType<Tutorial.Content.Items.Placebles.TutorialOre>();
+            ItemDrop = ModContent.ItemType<Items.Placebles.TutorialOre>();
 
             HitSound = SoundID.Tink;
 
