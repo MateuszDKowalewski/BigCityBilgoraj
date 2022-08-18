@@ -30,5 +30,12 @@ namespace BigCityBilgoraj.Tutorial.Content.Items.Placebles
             Item.useTime = 10;
             Item.autoReuse = true;
         }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient<TutorialOre>(4)
+                .AddTile(TileID.Furnaces)
+                .Register();        }
     }
 }
