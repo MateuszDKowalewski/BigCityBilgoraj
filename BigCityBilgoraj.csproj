@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="Tutorial\Content\Dusts\" />
     <Folder Include="Tutorial\Content\Items\Armours\" />
-    <Folder Include="Tutorial\Content\Items\Tools\" />
     <Folder Include="Tutorial\Content\Items\Placebles\" />
     <Folder Include="Tutorial\Content\Tiles\" />
     <Folder Include="Tutorial\Content\Projectiles\" />
