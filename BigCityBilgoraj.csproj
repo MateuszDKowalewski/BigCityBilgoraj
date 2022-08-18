@@ -15,6 +15,5 @@
     <Folder Include="Tutorial\Content\Items\Armours\" />
     <Folder Include="Tutorial\Content\Items\Placebles\" />
     <Folder Include="Tutorial\Content\Tiles\" />
-    <Folder Include="Tutorial\Content\Projectiles\" />
   </ItemGroup>
 </Project>
