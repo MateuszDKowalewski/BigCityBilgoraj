@@ -13,6 +13,5 @@
   <ItemGroup>
     <Folder Include="Tutorial\Content\Dusts\" />
     <Folder Include="Tutorial\Content\Items\Armours\" />
-    <Folder Include="Tutorial\Content\Tiles\" />
   </ItemGroup>
 </Project>

@@ -29,6 +29,8 @@ namespace BigCityBilgoraj.Tutorial.Content.Items.Placebles
             Item.useAnimation = 10;
             Item.useTurn = true;
             Item.autoReuse = true;
+
+            Item.createTile = ModContent.TileType<Tiles.TutorialOre>();
         }
 
     }
