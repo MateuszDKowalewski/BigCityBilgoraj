@@ -28,12 +28,25 @@ namespace BigCityBilgoraj.Tutorial.Content.Tiles
         {
             Tile t = Main.tile[x, y];
             int style = t.TileFrameX / 18;
-            Item.NewItem(
-                new EntitySource_TileBreak(x, y),
-                new Vector2(x * 16, y * 16),
-                new Vector2(16, 16),
-                ModContent.ItemType<Items.Placebles.TutorialBar>()
-            );
+            switch (style)
+            {
+                case 0:
+                    Item.NewItem(
+                        new EntitySource_TileBreak(x, y),
+                        new Vector2(x * 16, y * 16),
+                        new Vector2(16, 16),
+                        ModContent.ItemType<Items.Placebles.TutorialBar>());
+                    break;
+            
+                case 1:
+                    Item.NewItem(
+                        new EntitySource_TileBreak(x, y),
+                        new Vector2(x * 16, y * 16),
+                        new Vector2(16, 16),
+                        ModContent.ItemType<Items.Placebles.TutorialBar>());
+                    break;
+            
+            }
             return base.Drop(x, y);
         }
     }
