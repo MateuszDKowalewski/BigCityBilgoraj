@@ -39,6 +39,7 @@ namespace BigCityBilgoraj.Tutorial.Content.Items.Placebles
             CreateRecipe()
                 .AddIngredient<TutorialOre>(4)
                 .AddTile(TileID.Furnaces)
-                .Register();        }
+                .Register();        
+        }
     }
 }

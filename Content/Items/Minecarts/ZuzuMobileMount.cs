@@ -1,0 +1,20 @@
+﻿using Microsoft.Xna.Framework;
+using System;
+using Terraria;
+using Terraria.ModLoader;
+using Terraria.ID;
+
+namespace BigCityBilgoraj.Content.Items.Minecarts
+{
+    internal class ZuzuMobileMount : ModMount
+    {
+
+        public override void SetStaticDefaults()
+        {
+            MountData.Minecart = true;
+            MountData.MinecartDirectional = true;
+        }
+
+    }
+
+}
