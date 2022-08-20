@@ -20,19 +20,20 @@ namespace BigCityBilgoraj.Content.Items.Minecarts
 
         public override void SetDefaults()
         {
-            Item.width = 34;
-            Item.height = 26;
-            Item.useTime = 20;
-            Item.useAnimation = 20;
-            Item.useStyle = ItemUseStyleID.Swing;
-            Item.value = Item.sellPrice(gold: 3);
-            Item.rare = ItemRarityID.Green;
-            Item.noMelee = true;
-            Item.mountType = ModContent.MountType<ZuzuMobileMount>();
-            
+            Item.CloneDefaults(ItemID.Minecart);
+
+            // Item.width = 34;
+            // Item.height = 26;
+            // Item.useTime = 20;
+            // Item.useAnimation = 20;
+            // Item.useStyle = ItemUseStyleID.Swing;
+            // Item.value = Item.sellPrice(gold: 3);
+            // Item.rare = ItemRarityID.Green;
+            // Item.noMelee = true;
+            // Item.mountType = ModContent.MountType<ZuzuMobileMount>();
         }
 
-        
+        public override bool CanUseItem(Player player) => false;
 
     }
 

@@ -11,8 +11,21 @@ namespace BigCityBilgoraj.Content.Items.Minecarts
 
         public override void SetStaticDefaults()
         {
+
             MountData.Minecart = true;
             MountData.MinecartDirectional = true;
+
+            MountData.runSpeed = 17;
+            MountData.dashSpeed = 14;
+            MountData.fallDamage = 1f;
+            MountData.jumpHeight = 15;
+            MountData.spawnDust = 174;
+            MountData.jumpSpeed = 5.15f;
+            MountData.flightTimeMax = 0;
+            MountData.acceleration = 0.08f;
+            MountData.blockExtraJumps = true;
+
+
         }
 
     }
