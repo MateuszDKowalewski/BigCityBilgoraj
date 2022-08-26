@@ -14,7 +14,7 @@ namespace BigCityBilgoraj.Content.Items.Minecarts
             int total_frames = 1;
             int[] player_y_offsets = new int[total_frames];
             for (int i = 0; i < player_y_offsets.Length; i++)
-                player_y_offsets[i] = 0;
+                player_y_offsets[i] = 12;
 
             MountData.Minecart = true;
             MountData.MinecartDirectional = true;
@@ -32,7 +32,7 @@ namespace BigCityBilgoraj.Content.Items.Minecarts
             MountData.buff = ModContent.BuffType<ZuzuMobileBuff>();
 
             MountData.xOffset = 0;
-            MountData.yOffset = -24;
+            MountData.yOffset = -10;
             MountData.bodyFrame = 0;
             MountData.heightBoost = 0;
             MountData.playerHeadOffset = 0;
@@ -59,8 +59,8 @@ namespace BigCityBilgoraj.Content.Items.Minecarts
             if (Main.netMode == NetmodeID.Server)
                 return;
 
-            MountData.textureWidth = 48;
-            MountData.textureHeight = 101;
+            MountData.textureWidth = 170;
+            MountData.textureHeight = 82;
         }
 
     }
