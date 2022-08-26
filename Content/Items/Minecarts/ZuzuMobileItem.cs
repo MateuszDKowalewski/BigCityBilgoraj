@@ -21,9 +21,9 @@ namespace BigCityBilgoraj.Content.Items.Minecarts
         public override void SetDefaults()
         {
             Item.CloneDefaults(ItemID.Minecart);
-
-            // Item.width = 34;
-            // Item.height = 26;
+            Item.mountType = ModContent.MountType<ZuzuMobileMount>();
+            Item.width = 48;
+            Item.height = 34;
             // Item.useTime = 20;
             // Item.useAnimation = 20;
             // Item.useStyle = ItemUseStyleID.Swing;
